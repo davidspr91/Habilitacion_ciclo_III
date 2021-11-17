@@ -6,7 +6,7 @@ import HeaderButtons from "./components/HeaderButtons";
 
 const Header = ({ isLoggedIn, login, }) => {
     return (
-        <Navbar bg="secondary" variant="light">
+        <Navbar bg="cyan" variant="light">
             <Container>
                 <Navbar.Brand href="/"><Navbar.Brand href="#home"></Navbar.Brand> </Navbar.Brand>
                 <Nav className="me-auto">

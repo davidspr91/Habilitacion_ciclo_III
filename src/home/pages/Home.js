@@ -3,8 +3,8 @@ import Loggo from "./Loggo.jpg";
 
 const Home = ({ isLoggedIn, }) => {
     return (
-        <div align="center">
-            <img src={Loggo} width="850" height="850" alt="Loggo"></img>
+        <div align="responsive image">
+            <img src={Loggo} width="100%" height="auto" alt="Loggo"></img>
         </div>
     );
 };
